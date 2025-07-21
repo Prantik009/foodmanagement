@@ -59,7 +59,7 @@ const Footer = () => {
           <div className="bottom-part">
             <div className="bottom-left">
               <p className="copyright">
-                @AnnapurnaInc. {year} All Rights Reserved.
+                Developed By Prantik Biswas.
               </p>
             </div>
             <div className="bottom-right">
@@ -85,7 +85,7 @@ const Footer = () => {
                   </div>
                 </a>
 
-                <a href="#">
+                <a href="https://www.linkedin.com/in/prantik-biswas-a74ab4347/">
                   <div className="social">
                     <FaLinkedin />
                     <div className="s-text">Linkedin</div>
