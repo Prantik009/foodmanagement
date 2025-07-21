@@ -6,7 +6,7 @@ export const AdminFooter = () => {
           <div className="card-body">
             <p className="font-weight-normal text-center pt-2 card-text text-dark">
               {" "}
-              Developed by AnnapurnaTeam @{new Date().getFullYear()}
+              Developed by Prantik Biswas @{new Date().getFullYear()}
             </p>
           </div>
         </div>
