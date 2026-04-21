@@ -121,13 +121,16 @@ To deploy your own instance:
 
 ## 📸 Screenshots
 
-![Home](frontend/public/screenshots/home.png)
-<!-- ![HomeZoom](frontend/public/screenshots/Home_zoom.png) -->
-![singlepost](frontend/public/screenshots/singlepost.png)
-![createPost](frontend/public/screenshots/createPost.png)
-![chat](frontend/public/screenshots/chat.png)
-![Register](frontend/public/screenshots/register.png)
-![Profile](frontend/public/screenshots/profile.png)
+![Home](client/public/home.jpeg)
+![Home2](client/public/home2.jpeg)
+![Home3](client/public/home3.jpeg)
+![Home4](client/public/home4.jpeg)
+![Home5](client/public/home5.jpeg)
+![foodlist](client/public/foodlist1.jpeg)
+![donor1](client/public/d1.jpeg)
+![donor2](client/public/d2.jpeg)
+![admin1](client/public/a1.jpeg)
+![admin2](client/public/a2.jpeg)
 
 
 ## 🤝 Contributing
