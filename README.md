@@ -1,69 +1,145 @@
-# NGO Food Management System
+# 🌍 NGO Food Management System 🍱
 
-A full-stack web application to streamline food donation management for NGOs, enabling seamless tracking of donations, users, and inventory.
+## 🚀 Overview
+The **NGO Food Management System** is a full-stack MERN application designed to streamline food donation and distribution processes for NGOs.
 
-## 🚀 How to Run the Project Locally
+It helps manage donors, track food inventory, monitor distribution, and reduce food wastage through a structured and transparent system.
+
+This platform bridges the gap between **food donors and NGOs**, ensuring efficient utilization of surplus food.
+
+---
+
+## ✨ Features
+
+### 🔐 Authentication & Authorization
+- **Secure Access:** Login and registration using JSON Web Tokens (JWT).
+- **Security:** Password encryption with `bcrypt`.
+- **RBAC:** Role-Based Access Control (Admin / Donor).
+
+### 📦 Donation Management
+- **Submissions:** Donors can submit detailed food donation forms.
+- **Media:** Upload food images using `Multer`.
+- **Validation:** Server-side and client-side validation for accurate data entry.
+
+### 📊 Admin Dashboard
+- **Centralized Control:** Manage all incoming donations.
+- **Tracking:** Real-time food inventory tracking.
+- **Analytics:** Monitor donor activities and view system-wide analytics.
+
+### 📈 Inventory Tracking
+- **Wastage Reduction:** Real-time tracking of available food.
+- **Records:** Maintain structured digital records of all transactions.
+
+### 📋 Data Visualization
+- **Insights:** Graphical representation of data using `Chart.js`.
+- **Trends:** Easy monitoring of donation trends over time.
+
+### 🔎 Data Tables
+- **Efficiency:** Built-in search, filter, and sort functionality.
+- **UI:** Clean and user-friendly data presentation.
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- React.js
+- Bootstrap
+- Axios
+- SweetAlert2
+- Chart.js
+- React Data Table
+
+**Backend:**
+- Node.js
+- Express.js
+
+**Database:**
+- MongoDB
+- Mongoose
+
+**Security:**
+- JSON Web Token (JWT)
+- bcrypt
+
+**Other Tools:**
+- Multer (File Upload)
+- Dotenv (Environment Variables)
+
+---
+
+## 🛠️ Installation
 
 ### Prerequisites
-- Node.js (v16+)
-- MongoDB (running locally or via a cloud service)
+- Node.js (v16 or higher)
+- MongoDB (Local or Atlas)
+- Git
 
-### Steps
+---
 
-1. **Clone the repository**
+### 🔧 Setup Steps
+
+1. **Clone the Repository**
    ```bash
    git clone <your-repo-url>
    cd foodmanagement-main
-   ```
 
-2. **Server Setup**
+2. **Setup Backend**
    ```bash
    cd server
    npm install
+   # Create a .env file and add your credentials
    npm start
-   ```
 
-3. **Client Setup**
+3. **Setup Frontend**
    ```bash
    cd client
    npm install
    npm start
-   ```
 
-4. Visit `http://localhost:3000` to view the app in your browser.
+4. **Access the App**
+Open your browser and navigate to: `http://localhost:3000`
 
-## 🧰 Tech Stack Used
-- **Frontend**: ReactJS, Bootstrap, AOS (Animate on Scroll)
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB (Mongoose)
-- **Authentication**: JWT, bcrypt
-- **Other Libraries**: Axios, SweetAlert2, Chart.js, React Data Table
 
-## ✅ Features Implemented
-- Donor and Admin Authentication using JWT
-- Role-based Access Control (RBAC)
-- Admin Dashboard for:
-  - Viewing/managing donations
-  - User management
-  - Inventory tracking
-- Donation form with validation and file upload (via Multer)
-- Toast & Alert notifications (SweetAlert2)
-- Responsive design with Bootstrap for mobile and desktop
-- Scroll animations with AOS
-- Data visualizations using Chart.js
-- Data tables with search and filter
+### 📖 Usage
+1. **Register or login as a donor or admin.**
 
-## 🌟 Bonus Features
-- Integrated Chart.js for real-time analytics
-- Responsive tables using react-data-table-component
-- SweetAlert2 integration for enhanced UX
-- AOS integration for animated UI interactions
+2. **Donors: Submit food donation details and upload images.**
+
+3. **Admins: Review donations, update inventory, and analyze trends via the dashboard.**
+
+
+## 🌐 Deployment
+The app is live on Render:  
+[foodmanagement-frontend.onrender.com](https://foodmanagement-frontend.onrender.com/) 🎉
+
+
+To deploy your own instance:
+1. Push the code to a GitHub repository.
+2. Connect to Render and configure environment variables.
+3. Deploy the backend and frontend separately (or as a monorepo if preferred).
+
+## 📸 Screenshots
+
+![Home](frontend/public/screenshots/home.png)
+<!-- ![HomeZoom](frontend/public/screenshots/Home_zoom.png) -->
+![singlepost](frontend/public/screenshots/singlepost.png)
+![createPost](frontend/public/screenshots/createPost.png)
+![chat](frontend/public/screenshots/chat.png)
+![Register](frontend/public/screenshots/register.png)
+![Profile](frontend/public/screenshots/profile.png)
+
 
 ## 🤝 Contributing
-Contributions are welcome! Please follow these steps:
+Love to have you onboard! 🚢
 1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -m 'Add your feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a Pull Request.
+2. Create a new branch: `git checkout -b feature/your-feature`.
+3. Commit changes: `git commit -m "Add your feature"`.
+4. Push to the branch: `git push origin feature/your-feature`.
+5. Submit a pull request. 🎉
 
+## 📜 License
+This project is licensed under the MIT License.
+
+## 📬 Contact
+Reach out to [Prantik](https://github.com/Prantik009) or explore the live app at [Annapurna](https://foodmanagement-frontend.onrender.com/).
